@@ -1,4 +1,10 @@
+@font-face{font-style:normal;font-weight:300;font-family:Calibre Thin;src:url("https://casper.com/assets-spa/fonts/CalibreWeb-Thin.woff2") format("woff2"),url("https://casper.com/assets-spa/fonts/CalibreWeb-Thin.woff") format("woff")}
+@font-face{font-style:normal;font-weight:300;font-family:Calibre Light;src:url("https://casper.com/assets-spa/fonts/CalibreWeb-Light.woff2") format("woff2"),url("https://casper.com/assets-spa/fonts/CalibreWeb-Light.woff") format("woff")}
+@font-face{font-style:normal;font-weight:400;font-family:Calibre Regular;src:url("https://casper.com/assets-spa/fonts/CalibreWeb-Regular.woff2") format("woff2"),url("https://casper.com/assets-spa/fonts/CalibreWeb-Regular.woff") format("woff")}
+@font-face{font-style:normal;font-weight:500;font-family:Calibre Medium;src:url("https://casper.com/assets-spa/fonts/CalibreWeb-Medium.woff2") format("woff2"),url("https://casper.com/assets-spa/fonts/CalibreWeb-Medium.woff") format("woff")}
+
 .App {
+  font-family: 'Calibre Light';
   text-align: center;
   width: 100%;
   background-image: url('../public/background.png');
@@ -18,6 +24,9 @@
 }
 
 .App-intro {
+  font-family: 'Calibre Thin';
+  letter-spacing: 0.025rem;
+  margin-top: 0;
   font-size: 1rem;
 }
 
@@ -44,7 +53,9 @@
 }
 
 .App-video-title {
-  color: #27314A;
+  font-family: 'Calibre Regular';
+  font-weight: 600;
+  color: #1e306e;
   margin-top: 1rem;
   margin-bottom: 0;
 }
