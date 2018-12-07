@@ -18,14 +18,14 @@ class App extends Component {
         title: `The Cool Supima Sheets`
     },
       {
-        thumbnail: `https://s3.amazonaws.com/casper-sleep-spa-958020687612-us-east-1/pillowtalk/pillow-thumbnail.jpg`,
-        url: `https://s3.amazonaws.com/casper-sleep-spa-958020687612-us-east-1/pillowtalk/pillow.mp4`,
-        title: `The Casper Pillow`
+        thumbnail: `https://s3.amazonaws.com/casper-sleep-spa-958020687612-us-east-1/pillowtalk/dog-mattress-thumbnail.jpg`,
+        url: `https://s3.amazonaws.com/casper-sleep-spa-958020687612-us-east-1/pillowtalk/dog-mattress.mp4`,
+        title: `The Casper Dog Mattress`
       },
       {
-        thumbnail: `https://s3.amazonaws.com/casper-sleep-spa-958020687612-us-east-1/pillowtalk/sheets-thumbnail.jpg`,
-        url: `https://s3.amazonaws.com/casper-sleep-spa-958020687612-us-east-1/pillowtalk/sheets.mp4`,
-        title: `The Cool Supima Sheets`
+        thumbnail: `https://s3.amazonaws.com/casper-sleep-spa-958020687612-us-east-1/pillowtalk/bedtime-story-thumbnail.jpg`,
+        url: `https://s3.amazonaws.com/casper-sleep-spa-958020687612-us-east-1/pillowtalk/bedtime-story.mp4`,
+        title: `Bedtime Story`
       },
     ];
 
